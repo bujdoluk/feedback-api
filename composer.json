@@ -22,7 +22,7 @@
         "ext-pdo": "*",
         "ext-pdo_pgsql": "*",
         "monolog/monolog": "^2.8",
-        "php-di/php-di": "^6.4",
+        "php-di/php-di": "^7.0",
         "slim/http": "^1.4",
         "slim/psr7": "^1.5",
         "slim/slim": "^4.10",
