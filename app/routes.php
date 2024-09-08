@@ -16,7 +16,7 @@ return function (App $app) {
     });
 
     $app->get('/', function (Request $request, Response $response) {
-        $response->getBody()->write('Hello world!');
+        $response->getBody()->write('Landing page');
         return $response;
     });
 
@@ -25,8 +25,18 @@ return function (App $app) {
         return $response;
     });
 
-    $app->get('/feedbacks', function (Request $request, Response $response) {
-        $response->getBody()->write('Feedbacks!');
+    $app->get('/suggestions', function (Request $request, Response $response) {
+        $response->getBody()->write('Suggestions!');
+        return $response;
+    });
+
+    $app->get('/suggestions/:id', function (Request $request, Response $response) {
+        $response->getBody()->write('Suggestion #ID');
+        return $response;
+    });
+
+    $app->get('/changelog', function (Request $request, Response $response) {
+        $response->getBody()->write('ChangeLog');
         return $response;
     });
 
