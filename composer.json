@@ -1,33 +1,32 @@
 {
-    "name": "slim/slim-skeleton",
-    "description": "A Slim Framework skeleton application for rapid development",
+    "name": "feedback/feedback-api",
+    "description": "Feedback API",
     "keywords": [
         "microframework",
         "rest",
         "router",
         "psr7"
     ],
-    "homepage": "http://github.com/slimphp/Slim-Skeleton",
     "license": "MIT",
     "authors": [
         {
-            "name": "Josh Lockhart",
-            "email": "info@joshlockhart.com",
-            "homepage": "http://www.joshlockhart.com/"
-        },
-        {
-            "name": "Pierre Berube",
-            "email": "pierre@lgse.com",
-            "homepage": "http://www.lgse.com/"
+            "name": "Lukas Bujdos",
+            "email": "lukas.bujdos@gmail.com",
+            "homepage": "https://github.com/bujdoluk"
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^8.0",
+        "ext-gettext": "*",
         "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-pdo_pgsql": "*",
         "monolog/monolog": "^2.8",
         "php-di/php-di": "^6.4",
+        "slim/http": "^1.4",
         "slim/psr7": "^1.5",
-        "slim/slim": "^4.10"
+        "slim/slim": "^4.10",
+        "symfony/dotenv": "^7.1"
     },
     "require-dev": {
         "jangregor/phpstan-prophecy": "^1.0.0",

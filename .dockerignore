@@ -1,0 +1,10 @@
+.git
+.vscode
+.dockerignore
+.editorconfig
+.gitignore
+.coveralls.yml
+docker-compose.yml
+phpunit.xml
+*.md
+*.iml
